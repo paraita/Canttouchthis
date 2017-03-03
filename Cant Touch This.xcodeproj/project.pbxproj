@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC1F49B1E69B8620055CB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1F49A1E69B8620055CB75 /* AppDelegate.swift */; };
+		EDC1F49D1E69B8620055CB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1F49C1E69B8620055CB75 /* ViewController.swift */; };
+		EDC1F49F1E69B8620055CB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC1F49E1E69B8620055CB75 /* Assets.xcassets */; };
+		EDC1F4A21E69B8620055CB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC1F4A01E69B8620055CB75 /* Main.storyboard */; };
+		EDC1F4AD1E69B8620055CB75 /* Cant_Touch_ThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1F4AC1E69B8620055CB75 /* Cant_Touch_ThisTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC1F4A91E69B8620055CB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC1F48F1E69B8620055CB75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC1F4961E69B8620055CB75;
+			remoteInfo = "Cant Touch This";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC1F4971E69B8620055CB75 /* Cant Touch This.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cant Touch This.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC1F49A1E69B8620055CB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC1F49C1E69B8620055CB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC1F49E1E69B8620055CB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC1F4A11E69B8620055CB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC1F4A31E69B8620055CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC1F4A81E69B8620055CB75 /* Cant Touch ThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cant Touch ThisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC1F4AC1E69B8620055CB75 /* Cant_Touch_ThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cant_Touch_ThisTests.swift; sourceTree = "<group>"; };
+		EDC1F4AE1E69B8620055CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC1F4941E69B8620055CB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC1F4A51E69B8620055CB75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC1F48E1E69B8620055CB75 = {
+			isa = PBXGroup;
+			children = (
+				EDC1F4991E69B8620055CB75 /* Cant Touch This */,
+				EDC1F4AB1E69B8620055CB75 /* Cant Touch ThisTests */,
+				EDC1F4981E69B8620055CB75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC1F4981E69B8620055CB75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1F4971E69B8620055CB75 /* Cant Touch This.app */,
+				EDC1F4A81E69B8620055CB75 /* Cant Touch ThisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC1F4991E69B8620055CB75 /* Cant Touch This */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1F49A1E69B8620055CB75 /* AppDelegate.swift */,
+				EDC1F49C1E69B8620055CB75 /* ViewController.swift */,
+				EDC1F49E1E69B8620055CB75 /* Assets.xcassets */,
+				EDC1F4A01E69B8620055CB75 /* Main.storyboard */,
+				EDC1F4A31E69B8620055CB75 /* Info.plist */,
+			);
+			path = "Cant Touch This";
+			sourceTree = "<group>";
+		};
+		EDC1F4AB1E69B8620055CB75 /* Cant Touch ThisTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC1F4AC1E69B8620055CB75 /* Cant_Touch_ThisTests.swift */,
+				EDC1F4AE1E69B8620055CB75 /* Info.plist */,
+			);
+			path = "Cant Touch ThisTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC1F4961E69B8620055CB75 /* Cant Touch This */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC1F4B11E69B8620055CB75 /* Build configuration list for PBXNativeTarget "Cant Touch This" */;
+			buildPhases = (
+				EDC1F4931E69B8620055CB75 /* Sources */,
+				EDC1F4941E69B8620055CB75 /* Frameworks */,
+				EDC1F4951E69B8620055CB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cant Touch This";
+			productName = "Cant Touch This";
+			productReference = EDC1F4971E69B8620055CB75 /* Cant Touch This.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC1F4A71E69B8620055CB75 /* Cant Touch ThisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC1F4B41E69B8620055CB75 /* Build configuration list for PBXNativeTarget "Cant Touch ThisTests" */;
+			buildPhases = (
+				EDC1F4A41E69B8620055CB75 /* Sources */,
+				EDC1F4A51E69B8620055CB75 /* Frameworks */,
+				EDC1F4A61E69B8620055CB75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC1F4AA1E69B8620055CB75 /* PBXTargetDependency */,
+			);
+			name = "Cant Touch ThisTests";
+			productName = "Cant Touch ThisTests";
+			productReference = EDC1F4A81E69B8620055CB75 /* Cant Touch ThisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC1F48F1E69B8620055CB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Paraita;
+				TargetAttributes = {
+					EDC1F4961E69B8620055CB75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 66S33T67HD;
+						ProvisioningStyle = Automatic;
+					};
+					EDC1F4A71E69B8620055CB75 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 66S33T67HD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDC1F4961E69B8620055CB75;
+					};
+				};
+			};
+			buildConfigurationList = EDC1F4921E69B8620055CB75 /* Build configuration list for PBXProject "Cant Touch This" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC1F48E1E69B8620055CB75;
+			productRefGroup = EDC1F4981E69B8620055CB75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC1F4961E69B8620055CB75 /* Cant Touch This */,
+				EDC1F4A71E69B8620055CB75 /* Cant Touch ThisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC1F4951E69B8620055CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC1F49F1E69B8620055CB75 /* Assets.xcassets in Resources */,
+				EDC1F4A21E69B8620055CB75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC1F4A61E69B8620055CB75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC1F4931E69B8620055CB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC1F49D1E69B8620055CB75 /* ViewController.swift in Sources */,
+				EDC1F49B1E69B8620055CB75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC1F4A41E69B8620055CB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC1F4AD1E69B8620055CB75 /* Cant_Touch_ThisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC1F4AA1E69B8620055CB75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC1F4961E69B8620055CB75 /* Cant Touch This */;
+			targetProxy = EDC1F4A91E69B8620055CB75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC1F4A01E69B8620055CB75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC1F4A11E69B8620055CB75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC1F4AF1E69B8620055CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC1F4B01E69B8620055CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		EDC1F4B21E69B8620055CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66S33T67HD;
+				INFOPLIST_FILE = "Cant Touch This/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hipopochat.Cant-Touch-This";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDC1F4B31E69B8620055CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66S33T67HD;
+				INFOPLIST_FILE = "Cant Touch This/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hipopochat.Cant-Touch-This";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EDC1F4B51E69B8620055CB75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66S33T67HD;
+				INFOPLIST_FILE = "Cant Touch ThisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hipopochat.Cant-Touch-ThisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cant Touch This.app/Contents/MacOS/Cant Touch This";
+			};
+			name = Debug;
+		};
+		EDC1F4B61E69B8620055CB75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 66S33T67HD;
+				INFOPLIST_FILE = "Cant Touch ThisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hipopochat.Cant-Touch-ThisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cant Touch This.app/Contents/MacOS/Cant Touch This";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC1F4921E69B8620055CB75 /* Build configuration list for PBXProject "Cant Touch This" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC1F4AF1E69B8620055CB75 /* Debug */,
+				EDC1F4B01E69B8620055CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC1F4B11E69B8620055CB75 /* Build configuration list for PBXNativeTarget "Cant Touch This" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC1F4B21E69B8620055CB75 /* Debug */,
+				EDC1F4B31E69B8620055CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDC1F4B41E69B8620055CB75 /* Build configuration list for PBXNativeTarget "Cant Touch ThisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC1F4B51E69B8620055CB75 /* Debug */,
+				EDC1F4B61E69B8620055CB75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC1F48F1E69B8620055CB75 /* Project object */;
+}
