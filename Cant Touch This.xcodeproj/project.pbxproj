@@ -12,6 +12,7 @@
 		EDC1F49F1E69B8620055CB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC1F49E1E69B8620055CB75 /* Assets.xcassets */; };
 		EDC1F4A21E69B8620055CB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC1F4A01E69B8620055CB75 /* Main.storyboard */; };
 		EDC1F4AD1E69B8620055CB75 /* Cant_Touch_ThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC1F4AC1E69B8620055CB75 /* Cant_Touch_ThisTests.swift */; };
+		EDD3B6AB1E69EFEE00768611 /* CantTouchThisWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3B6AA1E69EFEE00768611 /* CantTouchThisWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		EDC1F4A81E69B8620055CB75 /* Cant Touch ThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cant Touch ThisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC1F4AC1E69B8620055CB75 /* Cant_Touch_ThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cant_Touch_ThisTests.swift; sourceTree = "<group>"; };
 		EDC1F4AE1E69B8620055CB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD3B6AA1E69EFEE00768611 /* CantTouchThisWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CantTouchThisWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EDC1F49E1E69B8620055CB75 /* Assets.xcassets */,
 				EDC1F4A01E69B8620055CB75 /* Main.storyboard */,
 				EDC1F4A31E69B8620055CB75 /* Info.plist */,
+				EDD3B6AA1E69EFEE00768611 /* CantTouchThisWindowController.swift */,
 			);
 			path = "Cant Touch This";
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				EDC1F49D1E69B8620055CB75 /* ViewController.swift in Sources */,
 				EDC1F49B1E69B8620055CB75 /* AppDelegate.swift in Sources */,
+				EDD3B6AB1E69EFEE00768611 /* CantTouchThisWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +405,7 @@
 				EDC1F4B31E69B8620055CB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDC1F4B41E69B8620055CB75 /* Build configuration list for PBXNativeTarget "Cant Touch ThisTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				EDC1F4B61E69B8620055CB75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
